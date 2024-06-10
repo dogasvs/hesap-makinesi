@@ -26,3 +26,6 @@ HTML: Uygulamanın yapısını oluşturmak için kullanıldı. Düğmeler ve ekr
 CSS: Hesap makinesinin görsel tasarımını ve düzenini oluşturmak için kullanıldı. Düğmelerin ve ekranın düzeni CSS ile belirlendi.
 
 JavaScript: Hesap makinesinin işlevselliğini sağlamak için kullanıldı. Kullanıcı etkileşimlerini işlemek ve matematiksel işlemleri gerçekleştirmek için JavaScript kodları yazıldı.
+
+<img width="1139" alt="Ekran Resmi 2024-06-10 10 14 38" src="https://github.com/dogasvs/hesap-makinesi/assets/164660640/cae4dd69-4887-4ef0-9b96-b408d4a0b106">
+

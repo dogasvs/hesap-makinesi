@@ -29,3 +29,6 @@ JavaScript: Hesap makinesinin işlevselliğini sağlamak için kullanıldı. Kul
 
 <img width="1139" alt="Ekran Resmi 2024-06-10 10 14 38" src="https://github.com/dogasvs/hesap-makinesi/assets/164660640/cae4dd69-4887-4ef0-9b96-b408d4a0b106">
 
+<img width="1139" alt="Ekran Resmi 2024-06-10 10 14 30" src="https://github.com/dogasvs/hesap-makinesi/assets/164660640/6d77ecea-2eb2-429f-b619-ed1e47b993cb">
+
+<img width="1139" alt="Ekran Resmi 2024-06-10 10 14 44" src="https://github.com/dogasvs/hesap-makinesi/assets/164660640/77b60c26-5b2f-4c6f-b59d-66ee23bc41f7">

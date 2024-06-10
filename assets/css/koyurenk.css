@@ -1,0 +1,241 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+  background-color: rgba(58, 70, 99, 1);
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.calc {
+  margin: 0 auto;
+  max-width: 560px;
+  padding-block: 96px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 29.44px;
+  letter-spacing: -0.53px;
+}
+
+.calc h4 {
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 31px;
+  margin-left: 7px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 32px;
+}
+
+.mode {
+  display: flex;
+  gap: 26px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 12px;
+  line-height: 13.44px;
+  letter-spacing: 1px;
+  align-items: flex-end;
+}
+
+.choice-number {
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.btn-tema {
+  padding: 5px 50px 5px 5px;
+  background-color: rgba(36, 45, 68, 1);
+  border: none;
+  border-radius: 50px;
+}
+
+.screen {
+  background-color: rgba(24, 31, 51, 1);
+  border-radius: 10px;
+} 
+
+.screen h1 {
+  padding-block: 40px;
+  padding-right: 32px;
+  margin-bottom: 24px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 51.52px;
+  text-align: Right;
+}
+
+.process-mathematically {
+  background-color: rgba(36, 45, 68, 1);
+  padding: 32px 32px 32px 30px; 
+  border-radius: 10px;
+}
+
+.process {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.btn.btn-del {
+  background-color: rgba(100, 113, 152, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 28px;
+  line-height: 25.76px;
+  letter-spacing: -0.47px;
+  box-shadow: 0px -4px 0px 0px rgba(65, 78, 115, 1) inset;
+}
+
+.btn.btn-del:hover {
+  background-color: rgba(162, 178, 225, 1);
+}
+
+.process button {
+  max-width: 101px;
+  padding: 13px 13px 11px 14px;
+  background-color: rgba(234, 227, 220, 1);
+  color: rgba(67, 74, 89, 1);
+  border-radius: 10px;
+  border: none;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 36.8px;
+  letter-spacing: -0.67px;
+  box-shadow: 0px -4px 0px 0px rgba(179, 164, 151, 1) inset;
+}
+
+.process button:hover{
+  background-color: rgba(255, 255, 254, 1);
+}
+
+.process-end {
+  display: flex;
+  gap: 24px;
+}
+
+.sifirlama {
+  width: 240px;
+  background-color: rgba(100, 113, 152, 1);
+  text-decoration: none;
+  padding: 13px 29px 11px 32px;
+  color: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 25.76px;
+  letter-spacing: -0.47px;
+  text-align: center;
+  box-shadow: 0px -4px 0px 0px rgba(65, 78, 115, 1) inset;
+}
+
+.sifirlama:hover {
+  background-color: rgba(162, 178, 225, 1);
+}
+
+.esittir {
+  width: 240px;
+  text-decoration: none;
+  padding: 13px 29px 11px 32px;
+  background-color: rgba(208, 63, 47, 1);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 25.76px;
+  letter-spacing: -0.47px;
+  text-align: center;
+  box-shadow: 0px -4px 0px 0px rgba(147, 38, 26, 1) inset;
+}
+
+.esittir:hover {
+  background-color: rgba(249, 107, 91, 1);
+}
+
+@media (width <= 375px) {
+  .container {
+    width: 375px;
+  }
+
+  .calc {
+    padding-block: 30px;
+  }
+
+  .head {
+   margin-inline: 31px;
+  }
+  
+  .screen {
+    width: 327px;
+    margin-inline: 24px;
+  }
+
+  .screen h1 {
+    padding: 29px 24px 22px;
+    font-size: 40px;
+    line-height: 38.8px;
+    letter-spacing: -0.67px;
+  }
+
+  .process-mathematically {
+    width: 327px;
+    margin: 32px 24px;
+  }
+  .process {
+    gap: 13px;
+  }
+
+  .process button {
+    width: 100%;
+    padding: 13px 10px;
+    font-size: 28px;
+    line-height: 29.44px;
+    letter-spacing: -0.53;
+  }
+
+  .process-end {
+    gap: 13px;
+  }
+
+  .sıfırlama {
+    width: 133px;
+    padding: 12px 22px ;
+    font-size: 20px;
+    letter-spacing: -0.33px;
+  }
+
+  .esittir {
+    width: 133px;
+    font-size: 20px;
+  }
+}

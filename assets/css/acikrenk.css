@@ -9,6 +9,7 @@
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  background-color: rgba(230, 230, 230, 1);
 }
 
 img, picture, video, canvas, svg {
@@ -27,7 +28,6 @@ p, h1, h2, h3, h4, h5, h6 {
 .container {
   margin: 0 auto;
   max-width: 1440px;
-  background-color: rgba(230, 230, 230, 1);
   font-family: "League Spartan", sans-serif;
   font-optical-sizing: auto;
 }

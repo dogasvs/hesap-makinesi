@@ -21,12 +21,6 @@ function handleDelete() {
   result.innerText = ' ';
 }
 
-
-// function handleDeleteSingle() {
-//   lastInput = result.innerText.slice(-1);
-//   lastInput = ' ';
-// }
-
 sifirlama.addEventListener('click', handleDelete);
 silme.addEventListener('click', handleDelete);
 sonucBtn.addEventListener('click', handleSonucClick);
